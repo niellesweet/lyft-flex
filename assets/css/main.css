@@ -1,3 +1,63 @@
+/*Diseño basico cuerpo*/
+
 body{
+	background-color: #fff;
 	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	line-height: 1;
+	overflow-x: hidden;
+	width: 100%;
+}
+
+/*Diseño nav*/
+img {
+  vertical-align: middle;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.link{
+  display: inline-block;
+  font-weight: 700px;
+  padding: 21px;
+}
+
+.flex-container{
+	display:flex;
+}
+
+.menu{
+	background: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.menu.flex-container{
+	justify-content: flex-start;
+}
+
+.logo-container{
+	margin-left: auto;
+	margin-right: 20px;
+}
+
+.flex-container .logo{
+	width: 70px;
+	height: 70px;
+}
+
+header{
+	background-image: url(../../docs/lyft-amp-illo-1200x630.png);
+	background-size: cover;
+	background-repeat: none;
+	background-attachment: fixed;
 }
